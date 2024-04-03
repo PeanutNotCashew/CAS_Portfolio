@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    text-align: center;
+    font-size: 120px;
+
+    color: rgb(255, 76, 27);
+    text-shadow: 5px 5px rgb(39, 39, 39);
+    transform-origin: 50% 0;
+    transform: rotate(-2deg);
+}
+
+img {
+    width: 100%;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    background-color: rgb(39, 39, 39);
+}
+
+#main-body {
+    position: sticky;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    min-height: 80%;
+
+    background-color: rgb(209, 186, 115);
+}
+
+#experiences {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+#experiences th {
+    flex-grow: 1;
+    padding: 10px;
+    
+    color: rgb(39, 39, 39);
+    background-color: rgb(218, 213, 203);
+}
+
+#experiences th:hover {
+    color: rgb(218, 213, 203);
+    background-color: rgb(39, 39, 39);
+}
