@@ -65,3 +65,7 @@ html, body {
     color: rgb(218, 213, 203);
     background-color: rgb(39, 39, 39);
 }
+
+#experiences .blank {
+    opacity: 0;
+}
